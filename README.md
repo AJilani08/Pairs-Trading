@@ -12,17 +12,21 @@ This project explores a **mean-reversion pairs trading strategy** applied to maj
    - Used the **Engle-Granger two-step method**.  
    - Modelled the spread (residuals) via linear regression (`sklearn.LinearRegression`).  
    - Applied **Augmented Dickey-Fuller (ADF)** test to verify stationarity at the 5% significance level.
+     ![Correlation Screening](images/CorrMatrixFinancials.png)
+     ![Correlated Pairs](images/PotentialPairs.png)
+     
 3. **Backtesting:**  
    - Period: 2021–Present  
    - Entry: Deviate 1 std from mean  
    - Exit: revert 0.1 std from mean  
-   - Capital: $10,000, with 2.5% allocated per trade  
+   - Capital: $10,000, with 2.5% allocated per trade
 
 ## Results
 - **Identified Pair:** Bank of America & American Express 
 - **Performance:**  
   - Sharpe ratio: 0.86  
   - Cumulative return: **+342.5%** (gross, no transaction costs)
+    ![Backtest Results](images/Backtest.png)
 
 ## Key Skills
 - Python (NumPy, Pandas, Matplotlib, sklearn, yfinance, statsmodels)
