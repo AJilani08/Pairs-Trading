@@ -19,13 +19,13 @@ This project explores a **mean-reversion pairs trading strategy** applied to maj
    - Capital: $10,000, with 2.5% allocated per trade  
 
 ## Results
-- **Identified Pair:** :contentReference[oaicite:1]{index=1} (BAC) & :contentReference[oaicite:2]{index=2} (AXP)  
+- **Identified Pair:** Bank of America & American Express 
 - **Performance:**  
   - Sharpe ratio: 0.86  
-  - Cumulative return: **+242.5%** (gross, no transaction costs)
+  - Cumulative return: **+342.5%** (gross, no transaction costs)
 
 ## Key Skills
-- Python (:contentReference[oaicite:3]{index=3}, :contentReference[oaicite:4]{index=4}, :contentReference[oaicite:5]{index=5}, :contentReference[oaicite:6]{index=6})
+- Python (NumPy, Pandas, Matplotlib, sklearn, yfinance, statsmodels)
 - Statistical modelling & time series analysis
 - Quantitative finance and risk-adjusted performance evaluation
 
